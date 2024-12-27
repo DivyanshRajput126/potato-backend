@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
-MODEL = keras.layers.TFSMLayer(r"C:\Users\Divyansh\OneDrive\Desktop\.vscode\new\models\1")
+MODEL = keras.layers.TFSMLayer(r"./1")
 
 CLASSNAME = ["EARLY BLIGHT", "LATE BLIGHT", "HEALTHY"]
 
